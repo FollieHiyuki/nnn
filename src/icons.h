@@ -25,10 +25,10 @@ struct icon_pair {
 #define ICON_PADDING_LEFT  ""
 #define ICON_PADDING_RIGHT " "
 
-#define COLOR_VIDEO        93  /* Purple */
-#define COLOR_AUDIO        220 /* Gold1 */
-#define COLOR_IMAGE        82  /* Chartreuse2 */
-#define COLOR_DOCS         202 /* OrangeRed1 */
+#define COLOR_VIDEO        5   /* Purple */
+#define COLOR_AUDIO        11  /* Gold1 */
+#define COLOR_IMAGE        2   /* Chartreuse2 */
+#define COLOR_DOCS         1   /* OrangeRed1 */
 #define COLOR_ARCHIVE      209 /* Salmon1 */
 #define COLOR_C            81  /* SteelBlue1 */
 #define COLOR_JAVA         32  /* DeepSkyBlue3 */
@@ -36,7 +36,7 @@ struct icon_pair {
 #define COLOR_REACT        39  /* DeepSkyBlue1 */
 #define COLOR_CSS          199 /* DeepPink1 */
 #define COLOR_PYTHON       227 /* LightGoldenrod1 */
-#define COLOR_LUA          19  /* Blue3 */
+#define COLOR_LUA          27  /* Blue3 */
 #define COLOR_DOCUMENT     15  /* White */
 #define COLOR_FSHARP       31  /* DeepSkyBlue3 */
 #define COLOR_RUBY         160 /* Red3 */
@@ -79,11 +79,18 @@ static const struct icon_pair icons_name[] = {
 	{"Makefile",     FILE_CMAKE,    0},
 #elif defined(NERD)
 	{".git",         ICON_GIT,       0},
+	{".cache",       ICON_CACHE,     0},
+	{".config",      ICON_CONFIGDIR, 0},
+	{".local",       ICON_LOCAL,     0},
+	{"Books",        ICON_BOOK,      0},
+	{"Code",         ICON_GITLAB,    0},
 	{"Desktop",      ICON_DESKTOP,   0},
 	{"Documents",    ICON_BRIEFCASE, 0},
 	{"Downloads",    ICON_DOWNLOADS, 0},
+	{"Mail",         ICON_MAIL,      0},
 	{"Music",        ICON_MUSIC,     0},
 	{"Pictures",     ICON_PICTURES,  0},
+	{"Projects",     ICON_GITLAB,    0},
 	{"Public",       ICON_PUBLIC,    0},
 	{"Templates",    ICON_TEMPLATES, 0},
 	{"Videos",       ICON_VIDEOS,    0},
@@ -432,6 +439,10 @@ static const struct icon_pair icons_ext[] = {
 
 	/* O */
 	{"o",          ICON_EXT_O,         0},
+	{"odb",        ICON_EXT_ODB,       0},
+	{"odp",        ICON_EXT_ODP,       0},
+	{"ods",        ICON_EXT_ODS,       0},
+	{"odt",        ICON_EXT_ODT,       0},
 	{"ogg",        ICON_EXT_OGG,       COLOR_AUDIO},
 	{"opdownload", ICON_EXT_ODOWNLOAD, 0},
 	{"out",        ICON_EXT_OUT,       0},
@@ -489,6 +500,7 @@ static const struct icon_pair icons_ext[] = {
 
 	/* V */
 	{"vid",        ICON_EXT_VID,       COLOR_VIDEO},
+	{"vifm",       ICON_EXT_VIFM,      COLOR_VIM},
 	{"vim",        ICON_EXT_VIM,       COLOR_VIM},
 	{"vimrc",      ICON_EXT_VIMRC,     COLOR_VIM},
 	{"vtt",        ICON_EXT_SRT,       0},

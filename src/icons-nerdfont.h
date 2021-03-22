@@ -5,53 +5,59 @@
 // https://www.nerdfonts.com/cheat-sheet
 
 // Arrows
-#define MD_ARROW_UPWARD    "\uf55c"
-#define MD_ARROW_FORWARD   "\uf553"
-#define MD_ARROW_DOWNWARD  "\uf544"
+#define MD_ARROW_UPWARD    "\uf077"
+#define MD_ARROW_FORWARD   "\uf054"
+#define MD_ARROW_DOWNWARD  "\uf078"
 
 // Generics
-#define ICON_DIRECTORY     "\ue5ff"
-#define ICON_FILE          "\uf713"
-#define ICON_EXEC          "\uf144"
-#define ICON_MANUAL        "\uf5bd"
+#define ICON_DIRECTORY     "\ue5fe"
+#define ICON_FILE          "\uf15b"
+#define ICON_EXEC          "\uf427"
+#define ICON_MANUAL        "\uf02d"
 
 // Top level and common icons
 #define ICON_GIT           "\ue5fb"
-#define ICON_DESKTOP       "\ufcbe"
+#define ICON_GITLAB        "\uf296"
+#define ICON_BOOK          "\ufd2c"
+#define ICON_CACHE         "\uf5e7"
+#define ICON_DESKTOP       "\uf6c3"
 #define ICON_BRIEFCASE     "\uf5d5"
 #define ICON_DOCUMENT      "\uf718"
 #define ICON_DOWNLOADS     "\uf5d7"
-#define ICON_MUSIC         "\uf832"
-#define ICON_MUSICFILE     "\uf886"
-#define ICON_PICTURES      "\uf753"
-#define ICON_PICTUREFILE   "\uf71e"
-#define ICON_PUBLIC        "\ue5ff"
-#define ICON_TEMPLATES     "\ufac6"
-#define ICON_VIDEOS        "\uf72f"
-#define ICON_VIDEOFILE     "\uf72a"
-#define ICON_CHANGELOG     "\uf7d9"
+#define ICON_MUSIC         "\uf025"
+#define ICON_MUSICFILE     "\uf001"
+#define ICON_PICTURES      "\ue244"
+#define ICON_PICTUREFILE   "\uf1c5"
+#define ICON_PUBLIC        "\uf42b"
+#define ICON_LOCAL         "\uf415"
+#define ICON_TEMPLATES     "\uf0c5"
+#define ICON_VIDEOS        "\uf008"
+#define ICON_VIDEOFILE     "\uf1c8"
+#define ICON_CHANGELOG     "\uf8f8"
+#define ICON_CONFIGDIR     "\ue5fc"
 #define ICON_CONFIGURE     "\uf423"
-#define ICON_LICENSE       "\uf718"
-#define ICON_MAKEFILE      "\uf68c"
-#define ICON_ARCHIVE       "\uf53b"
+#define ICON_LICENSE       "\ue60a"
+#define ICON_MAKEFILE      "\uf0ad"
+#define ICON_ARCHIVE       "\uf1c6"
 #define ICON_SCRIPT        "\ue795"
 #define ICON_CPLUSPLUS     "\ue61d"
 #define ICON_JAVA          "\ue738"
 #define ICON_CLOJURE       "\ue76a"
-#define ICON_JAVASCRIPT    "\uf81d"
-#define ICON_LINUX         "\uf83c"
+#define ICON_JAVASCRIPT    "\ue74e"
+#define ICON_LINUX         "\uf17c"
 #define ICON_FSHARP        "\ue7a7"
 #define ICON_RUBY          "\ue23e"
 #define ICON_C             "\ue61e"
 #define ICON_CHESS         "\uf639"
 #define ICON_HASKELL       "\ue777"
 #define ICON_HTML          "\uf72d"
-#define ICON_REACT         "\ue625"
+#define ICON_REACT         "\ue7ba"
 #define ICON_PYTHON        "\ue235"
 #define ICON_DATABASE      "\uf6b7"
 #define ICON_WORDDOC       "\uf72b"
 #define ICON_PLAYLIST      "\uf910"
 #define ICON_OPTICALDISK   "\ue271"
+#define ICON_MAIL          "\uf7aa"
 
 
 /* Numbers */
@@ -181,6 +187,10 @@
 
 /* O */
 #define ICON_EXT_O         ICON_MANUAL
+#define ICON_EXT_ODB       ICON_DATABASE
+#define ICON_EXT_ODP       "\uf726"
+#define ICON_EXT_ODS       "\uf71a"
+#define ICON_EXT_ODT       ICON_WORDDOC
 #define ICON_EXT_OGG       ICON_MUSICFILE
 #define ICON_EXT_ODOWNLOAD ICON_DOWNLOADS
 #define ICON_EXT_OUT       ICON_LINUX
@@ -238,6 +248,7 @@
 
 /* V */
 #define ICON_EXT_VID       ICON_VIDEOFILE
+#define ICON_EXT_VIFM      "\ue62b"
 #define ICON_EXT_VIM       "\ue62b"
 #define ICON_EXT_VIMRC     "\ue62b"
 
